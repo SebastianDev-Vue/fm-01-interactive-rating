@@ -22,7 +22,7 @@ const onSubmit = () => {
     <div
       class="w-11 h-11 md:w-12 md:h-12 rounded-full bg-fm-medium-grey/10 grid place-content-center mb-8"
     >
-      <img src="icon-star.svg" alt="Star Icon" />
+      <img src="../assets/icon-star.svg" alt="Star Icon" />
     </div>
 
     <h1 class="text-2xl md:text-3xl font-bold mb-2">How did we do?</h1>
