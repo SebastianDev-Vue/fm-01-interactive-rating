@@ -39,7 +39,7 @@ const onSubmit = () => {
         :key="num"
         class="w-11 h-11 md:w-[54px] text-sm md:text-base md:h-[54px] bg-fm-medium-grey/10 text-fm-medium-grey rounded-full hover:bg-fm-orange hover:text-white transition-colors duration-300 ease-linear"
         @click="handleSelectValue(num)"
-        :class="{ 'bg-fm-medium-grey text-white': selectedValue === num }"
+        :class="{ 'text-white isActive': selectedValue === num }"
       >
         {{ num }}
       </button>
@@ -54,4 +54,8 @@ const onSubmit = () => {
   </form>
 </template>
 
-<style scoped></style>
+<style scoped>
+.isActive {
+  background-color: #8c9aa6;
+}
+</style>
